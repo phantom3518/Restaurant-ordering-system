@@ -1,0 +1,35 @@
+
+
+.content-3 #box {
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+
+#box li {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    border: 2px solid #ccc;
+    float: left;
+}
+
+#box li a {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+}
+#box li a:last-child {
+    width: 200px;
+}
+
+/*#box li:hover #box li a{*/
+    /*width: 500px;*/
+/*}*/
+/*#box ul {*/
+    /*margin-bottom: 50px;*/
+/*}*/
